@@ -13,9 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Restaurant Template",
+  title: "The Social Poblacion",
   description:
-    "Modern restaurant and bar website template by Tripod Studio.",
+    "Cocktails, beers and nightlife in the heart of Poblacion.",
+  openGraph: {
+  title: "The Social Poblacion | Cocktails & Nightlife in Makati",
+  description:
+    "Cocktails, beers and nightlife in the heart of Poblacion.",
+  images: ["/restaurant-hero.jpg"],
+},
+icons: {
+  icon: "/favicon.ico",
+},
 };
 
 export default function RootLayout({
